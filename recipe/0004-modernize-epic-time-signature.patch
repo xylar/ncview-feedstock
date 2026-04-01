@@ -1,0 +1,21 @@
+diff --git a/src/epic_time.c b/src/epic_time.c
+--- a/src/epic_time.c
++++ b/src/epic_time.c
+@@ -17,11 +17,13 @@
+ #define JULGREG   2299161
+ 
+ void
+-ep_time_to_mdyhms(time, mon, day, yr, hour, min, sec)
+-     long *time;
+-     int *mon, *day, *yr, *hour, *min;
+-     float *sec;
+-{
++ep_time_to_mdyhms(
++    long *time,
++    int *mon, int *day, int *yr,
++    int *hour, int *min,
++    float *sec
++)
+ {
+ /*
+  * convert eps time format to mdy hms

@@ -16,6 +16,7 @@ source:
     - 0001-remove-same-compiler-test.patch
     - 0002-remove-explicit-expat-linking.patch
     - 0003-fix-xaw-list-pointer-types.patch
+    - 0004-modernize-epic-time-signature.patch
 
 build:
   number: 14
